@@ -50037,6 +50037,10 @@ html {
     .shape {
         display: none;
     }
+    .heading-index {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -50230,7 +50234,7 @@ html {
 }
 @media (max-width: 415px) {
     .small-text {
-        font-size: 30px !important;
+        font-size: 9vw!important;
     }
 }
 @media (min-width: 576px) and (max-width: 768px) {
