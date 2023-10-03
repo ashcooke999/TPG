@@ -50174,6 +50174,9 @@ html {
     .img-mobile-index-1 {
         display: none;
     }
+    .not-rounded {
+        border-radius: 0% !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -50518,6 +50521,9 @@ html {
         width: 30vw;
         right: -2rem
     }
+    .email-lg {
+        top: -6vw;
+    }
 
     .img-width-shape {
         width: 12vw !important;
@@ -50566,7 +50572,9 @@ html {
         font-size: 5.5vw !important;
         padding-left: 1rem !important;
     }
-
+.email-lg {
+        top: -2vw;
+    }
     .resize-1 {
         padding-right: 0px !important;
         margin-left: 7vw !important;
@@ -50622,5 +50630,8 @@ html {
         top: -1rem !important;
         width: 28vw !important;
         right: 0rem !important;
+    }
+    .email-lg {
+        top: -11vw;
     }
 }
